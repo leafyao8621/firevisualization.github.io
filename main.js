@@ -147,7 +147,7 @@ let cities = [
     }
 ];
 
-let ind = 0;
+let ind = 19680;
 let time = null;
 let max_ind = 28440;
 let timer = null;
