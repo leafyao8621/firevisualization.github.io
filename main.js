@@ -131,8 +131,7 @@ window.onload = () => {
     con.text(`Loading, please wait`);
     let promises = [];
     for (i of cities) {
-        console.log(`/data/${i.name}Fire.json`);
-        promises.push(d3.json(`/data/${i.name}Fire.json`, (err, data) => {
+        promises.push(d3.json(`data/${i.name}Fire.json`, (err, data) => {
             console.log(err);
         }));
     }
